@@ -7,3 +7,9 @@
 [submodule "apps/store-service/src/models/tenant"]
 	path = apps/store-service/src/models/tenant
 	url = https://github.com/DayaDesai/tenant.git
+[submodule "apps/admin-panel-service/src/models/main"]
+	path = apps/admin-panel-service/src/models/main
+	url = https://github.com/DayaDesai/main.git
+[submodule "apps/admin-panel-service/src/models/tenant"]
+	path = apps/admin-panel-service/src/models/tenant
+	url = https://github.com/DayaDesai/tenant.git
