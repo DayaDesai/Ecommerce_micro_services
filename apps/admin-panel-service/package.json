@@ -1,0 +1,25 @@
+{
+  "name": "admin-panel-service",
+  "version": "1.0.0",
+  "description": "- Store (tenant) creation & onboarding\r - Subdomain or custom domain management\r - Theme & feature selection\r - Creates and manages tenant-specific DB connections",
+  "main": "./server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
