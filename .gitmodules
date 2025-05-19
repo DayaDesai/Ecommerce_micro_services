@@ -1,0 +1,9 @@
+[submodule "apps/admin-panel-service/src/models"]
+	path = apps/admin-panel-service/src/models
+	url = https://github.com/DayaDesai/models.git
+[submodule "apps/auth-service/src/models"]
+	path = apps/auth-service/src/models
+	url = https://github.com/DayaDesai/models.git
+[submodule "apps/store-service/src/models"]
+	path = apps/store-service/src/models
+	url = https://github.com/DayaDesai/models.git
