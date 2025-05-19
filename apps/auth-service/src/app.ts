@@ -1,13 +1,13 @@
 import express, { Express, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import { Routes } from './src/routes/index';
+import { Routes } from './routes/index';
 
 // import { errorMiddleware } from './middleware/error.middleware';
 
 export class App {
     public express: Express = express();
     public routes = new Routes();
-
+    
     constructor() {
         // Middlewares
         this.express.use(cors());
@@ -21,7 +21,7 @@ export class App {
         });
 
         // Routes
-        this.express.use('/', this.routes.router);
+        this.express.use('/api', this.routes.router);
 
         // Route to check if server is working or not
         this.express.get('/', (req: Request, res: Response) => {

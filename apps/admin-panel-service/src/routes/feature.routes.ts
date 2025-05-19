@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import { FeatureController } from '../controllers/feature.controller';
 
-
 export class FeatureRoutes {
 
     public featureController: FeatureController = new FeatureController();

@@ -1,6 +1,6 @@
 import express, { Express, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import { Routes } from './src/routes/index';
+import { Routes } from './routes/index';
 
 // import { errorMiddleware } from './middleware/error.middleware';
 

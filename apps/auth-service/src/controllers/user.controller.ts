@@ -12,7 +12,7 @@ export class UserController extends HttpStatus {
 
     /** POST API: Login with the email and password into the system */
     public login = async (req: Request, res: Response, next: NextFunction) => {
-        
+
     };
 
 }

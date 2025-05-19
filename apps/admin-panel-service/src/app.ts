@@ -1,6 +1,6 @@
 import express, { Express, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import { Routes } from './src/routes/index';
+import { Routes } from './routes/index';
 
 // import { errorMiddleware } from './middleware/error.middleware';
 
@@ -34,7 +34,5 @@ export class App {
         this.express.use((req: Request, res: Response) => {
             res.status(404).send('Endpoint not found!');
         });
-
-
     }
 }
