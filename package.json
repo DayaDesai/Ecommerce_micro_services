@@ -16,6 +16,7 @@
   "description": "NodeJS Microservice Architecture with Express, MySQL, Redis, RabbitMQ, and Docker.",
   "dependencies": {
     "mysql": "^2.18.1",
+    "nodemon": "^3.1.10",
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
